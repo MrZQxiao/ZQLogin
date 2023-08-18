@@ -1,0 +1,16 @@
+PODS:
+  - ZQLogin (0.1.0)
+
+DEPENDENCIES:
+  - ZQLogin (from `../`)
+
+EXTERNAL SOURCES:
+  ZQLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQLogin: ab2321cea1d63fd2d90401f454b89e16f61d439d
+
+PODFILE CHECKSUM: 8e6fa3a25e81f07395ef25cb2f733ef883ab9c47
+
+COCOAPODS: 1.11.3

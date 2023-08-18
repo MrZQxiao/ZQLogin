@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1033583296FB0D0DE70CA0F1EE5FFABF /* Pods-ZQLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95510E300F382820F46EBD7280769FA3 /* Pods-ZQLogin_Tests-dummy.m */; };
+		19C1E4EBDAF618B592D0ADF5721CD92A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832052DBE0530D2B06092378851679D /* ReplaceMe.m */; };
+		2ED8802869B612BD18F6D1CEA0227F03 /* Pods-ZQLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E64C435767D7A66E91FF7C5A643D25 /* Pods-ZQLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D07801A338762F13FFBDC2FD515D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		48CC41B899DE724478CBE941CBDFE25C /* ZQLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C3B57868F9C69DBFD19E5C2C35F699 /* ZQLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526E932B37FFBB247D9500C5A972E1C9 /* Pods-ZQLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F07BE88CCE5EBE39A07DAEFE63B68B /* Pods-ZQLogin_Example-dummy.m */; };
+		55DDD5DE4158A18AB0547ADBEB46D521 /* ZQLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F90FD4451838DFD9B5AF17140702930E /* ZQLogin-dummy.m */; };
+		618487E7FFC24FBA045B5A008A209A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C1A516A8C0695A4C3443F11BA0F0DE07 /* Pods-ZQLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7EDBB468AC42D8FE644ABBE19A31E2 /* Pods-ZQLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBDD63DB07B49C229F35B187AB21CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B1105FC6B56A3F1FFE37F16039EEED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE235D8DA913F4DC695CFFA05E28CA2;
+			remoteInfo = ZQLogin;
+		};
+		B5AED7F9B77418CCC1BFBDE1E7EE5109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADAC292617A7EE5F53B434CCA834DC2;
+			remoteInfo = "Pods-ZQLogin_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0439158F3BEFD867453BAEDAEB42CC73 /* Pods-ZQLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZQLogin_Example.modulemap"; sourceTree = "<group>"; };
+		11A538FB75C27272C44CCC321565E668 /* ZQLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZQLogin-Info.plist"; sourceTree = "<group>"; };
+		1832052DBE0530D2B06092378851679D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZQLogin/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1998F202BEB8040FC6B14F9CF714A87E /* ZQLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZQLogin.modulemap; sourceTree = "<group>"; };
+		1A46650EE9236067EF977325F251C92F /* Pods-ZQLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1B4316DCD3264596A2552D394A611F9F /* Pods-ZQLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQLogin_Example-Info.plist"; sourceTree = "<group>"; };
+		1E71AD3658F5A9D1DD206C6607E8D57D /* ZQLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQLogin.debug.xcconfig; sourceTree = "<group>"; };
+		2D973EDB34A176BA02A9B58208B89DAD /* Pods-ZQLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35CECB0029DA0F69574AC9FD72BAB4CD /* ZQLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQLogin.release.xcconfig; sourceTree = "<group>"; };
+		37F07BE88CCE5EBE39A07DAEFE63B68B /* Pods-ZQLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		3D7EDBB468AC42D8FE644ABBE19A31E2 /* Pods-ZQLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZQLogin_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D8CB5677888B3FDA7B33B658E89B7B8 /* Pods-ZQLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CAF6193E354C79248D9C8B4669E4B20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		64E64C435767D7A66E91FF7C5A643D25 /* Pods-ZQLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZQLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F264696D300F8B758DDADE2C01511A1 /* Pods-ZQLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZQLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E413DE6C7C86F1EB73FD6C79455DA14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82A4D06819A372B3A0F49A17DE294EAF /* Pods-ZQLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQLogin_Tests-Info.plist"; sourceTree = "<group>"; };
+		95293C328DE074DDA9863CCFAF4A28C3 /* ZQLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQLogin-prefix.pch"; sourceTree = "<group>"; };
+		95510E300F382820F46EBD7280769FA3 /* Pods-ZQLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		971356A26301DD253E97A6F57BE04B88 /* Pods-ZQLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0CBDD9D34A9D15EE8E315A452C53B7A /* ZQLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZQLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACE58883FB3EBE4AF44D2B084F555FB2 /* Pods-ZQLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFC88A1A87D975C516BEAD0F480535B9 /* Pods-ZQLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B013FB52BA74078804A5ECDC6D195900 /* Pods-ZQLogin_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZQLogin_Tests"; path = Pods_ZQLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C3B57868F9C69DBFD19E5C2C35F699 /* ZQLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQLogin-umbrella.h"; sourceTree = "<group>"; };
+		CB6F7F037FDAA1EE7CC9849E112B370C /* Pods-ZQLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZQLogin_Tests.modulemap"; sourceTree = "<group>"; };
+		E8B08AFD91494477C904196863504FD4 /* ZQLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZQLogin; path = ZQLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C8C78289180E7689FE4643C3343E78 /* Pods-ZQLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F90FD4451838DFD9B5AF17140702930E /* ZQLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZQLogin-dummy.m"; sourceTree = "<group>"; };
+		FC6740D20F29E14B298377344E28CF43 /* Pods-ZQLogin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZQLogin_Example"; path = Pods_ZQLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFC69D0E050DF3A9F1F8A351A9BA021 /* Pods-ZQLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0955D2DDD6B968A2EA46B48C70F61514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBDD63DB07B49C229F35B187AB21CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A57F7303195A6F84FF3DAA21BCEA42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618487E7FFC24FBA045B5A008A209A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBED18D7FABED2F759FC0C8660C884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D07801A338762F13FFBDC2FD515D5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0282E3AB1945E05D3F8C377DFB25B62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6740D20F29E14B298377344E28CF43 /* Pods-ZQLogin_Example */,
+				B013FB52BA74078804A5ECDC6D195900 /* Pods-ZQLogin_Tests */,
+				E8B08AFD91494477C904196863504FD4 /* ZQLogin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19569D4DD9F19643AF615F56EEAADE6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1998F202BEB8040FC6B14F9CF714A87E /* ZQLogin.modulemap */,
+				F90FD4451838DFD9B5AF17140702930E /* ZQLogin-dummy.m */,
+				11A538FB75C27272C44CCC321565E668 /* ZQLogin-Info.plist */,
+				95293C328DE074DDA9863CCFAF4A28C3 /* ZQLogin-prefix.pch */,
+				B8C3B57868F9C69DBFD19E5C2C35F699 /* ZQLogin-umbrella.h */,
+				1E71AD3658F5A9D1DD206C6607E8D57D /* ZQLogin.debug.xcconfig */,
+				35CECB0029DA0F69574AC9FD72BAB4CD /* ZQLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZQLogin";
+			sourceTree = "<group>";
+		};
+		1D343778F3A61CA692CB30058E7F8BE6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				493CA304E2CF5CA933A8327B7F06DC03 /* Pods-ZQLogin_Example */,
+				FE50AFD723FB138D0B78843523F2EAA1 /* Pods-ZQLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		493CA304E2CF5CA933A8327B7F06DC03 /* Pods-ZQLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0439158F3BEFD867453BAEDAEB42CC73 /* Pods-ZQLogin_Example.modulemap */,
+				F3C8C78289180E7689FE4643C3343E78 /* Pods-ZQLogin_Example-acknowledgements.markdown */,
+				AFC88A1A87D975C516BEAD0F480535B9 /* Pods-ZQLogin_Example-acknowledgements.plist */,
+				37F07BE88CCE5EBE39A07DAEFE63B68B /* Pods-ZQLogin_Example-dummy.m */,
+				6F264696D300F8B758DDADE2C01511A1 /* Pods-ZQLogin_Example-frameworks.sh */,
+				1B4316DCD3264596A2552D394A611F9F /* Pods-ZQLogin_Example-Info.plist */,
+				3D7EDBB468AC42D8FE644ABBE19A31E2 /* Pods-ZQLogin_Example-umbrella.h */,
+				971356A26301DD253E97A6F57BE04B88 /* Pods-ZQLogin_Example.debug.xcconfig */,
+				FFFC69D0E050DF3A9F1F8A351A9BA021 /* Pods-ZQLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-ZQLogin_Example";
+			path = "Target Support Files/Pods-ZQLogin_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98BDEB2D0FAEC0935422DC07DEC9955C /* ZQLogin */ = {
+			isa = PBXGroup;
+			children = (
+				1832052DBE0530D2B06092378851679D /* ReplaceMe.m */,
+				F737BFBEE78B71C76E8F36A20824F311 /* Pod */,
+				19569D4DD9F19643AF615F56EEAADE6C /* Support Files */,
+			);
+			name = ZQLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C2CD71E3E10D570FC1F48E3A767763CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98BDEB2D0FAEC0935422DC07DEC9955C /* ZQLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C2CD71E3E10D570FC1F48E3A767763CF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0282E3AB1945E05D3F8C377DFB25B62F /* Products */,
+				1D343778F3A61CA692CB30058E7F8BE6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F737BFBEE78B71C76E8F36A20824F311 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E413DE6C7C86F1EB73FD6C79455DA14 /* LICENSE */,
+				4CAF6193E354C79248D9C8B4669E4B20 /* README.md */,
+				A0CBDD9D34A9D15EE8E315A452C53B7A /* ZQLogin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FE50AFD723FB138D0B78843523F2EAA1 /* Pods-ZQLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F7F037FDAA1EE7CC9849E112B370C /* Pods-ZQLogin_Tests.modulemap */,
+				3D8CB5677888B3FDA7B33B658E89B7B8 /* Pods-ZQLogin_Tests-acknowledgements.markdown */,
+				ACE58883FB3EBE4AF44D2B084F555FB2 /* Pods-ZQLogin_Tests-acknowledgements.plist */,
+				95510E300F382820F46EBD7280769FA3 /* Pods-ZQLogin_Tests-dummy.m */,
+				82A4D06819A372B3A0F49A17DE294EAF /* Pods-ZQLogin_Tests-Info.plist */,
+				64E64C435767D7A66E91FF7C5A643D25 /* Pods-ZQLogin_Tests-umbrella.h */,
+				2D973EDB34A176BA02A9B58208B89DAD /* Pods-ZQLogin_Tests.debug.xcconfig */,
+				1A46650EE9236067EF977325F251C92F /* Pods-ZQLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZQLogin_Tests";
+			path = "Target Support Files/Pods-ZQLogin_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DEA7D016F151F00161CCBD156FE50F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED8802869B612BD18F6D1CEA0227F03 /* Pods-ZQLogin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AB41012061133B87DE145A1D4B607A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A516A8C0695A4C3443F11BA0F0DE07 /* Pods-ZQLogin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858D028FED5A2F28A34C1123047A8269 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CC41B899DE724478CBE941CBDFE25C /* ZQLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9FDE465E36C362A2D5EC750715FF4694 /* Pods-ZQLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF68B6BA9A3A2B6B61A32ACB1620893 /* Build configuration list for PBXNativeTarget "Pods-ZQLogin_Tests" */;
+			buildPhases = (
+				4DEA7D016F151F00161CCBD156FE50F2 /* Headers */,
+				895B4A0120AC5E7C0A176B4247513282 /* Sources */,
+				42A57F7303195A6F84FF3DAA21BCEA42 /* Frameworks */,
+				9F17654386173E2509326C85D5B8AF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E144F55EB39BA8798D3EEAB6B6A789 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZQLogin_Tests";
+			productName = Pods_ZQLogin_Tests;
+			productReference = B013FB52BA74078804A5ECDC6D195900 /* Pods-ZQLogin_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEE235D8DA913F4DC695CFFA05E28CA2 /* ZQLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F8B85C36D44DAB13C1AAAEA34607B7 /* Build configuration list for PBXNativeTarget "ZQLogin" */;
+			buildPhases = (
+				858D028FED5A2F28A34C1123047A8269 /* Headers */,
+				2025B2A0962C7F3328A5AB4BC67FF02F /* Sources */,
+				0955D2DDD6B968A2EA46B48C70F61514 /* Frameworks */,
+				427A4FEA2C9A73C334444C3AF2782732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQLogin;
+			productName = ZQLogin;
+			productReference = E8B08AFD91494477C904196863504FD4 /* ZQLogin */;
+			productType = "com.apple.product-type.framework";
+		};
+		CADAC292617A7EE5F53B434CCA834DC2 /* Pods-ZQLogin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF515391C7B618E1A711706C9E9536CF /* Build configuration list for PBXNativeTarget "Pods-ZQLogin_Example" */;
+			buildPhases = (
+				73AB41012061133B87DE145A1D4B607A /* Headers */,
+				78E2DF0E4405AAA1CFF83A146C2B80C5 /* Sources */,
+				74BBED18D7FABED2F759FC0C8660C884 /* Frameworks */,
+				9CC4144F93F173DD58E57E5A9E911BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6060E6A9F87B13443E47702FB3C439 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZQLogin_Example";
+			productName = Pods_ZQLogin_Example;
+			productReference = FC6740D20F29E14B298377344E28CF43 /* Pods-ZQLogin_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0282E3AB1945E05D3F8C377DFB25B62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADAC292617A7EE5F53B434CCA834DC2 /* Pods-ZQLogin_Example */,
+				9FDE465E36C362A2D5EC750715FF4694 /* Pods-ZQLogin_Tests */,
+				AEE235D8DA913F4DC695CFFA05E28CA2 /* ZQLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427A4FEA2C9A73C334444C3AF2782732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC4144F93F173DD58E57E5A9E911BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F17654386173E2509326C85D5B8AF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2025B2A0962C7F3328A5AB4BC67FF02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C1E4EBDAF618B592D0ADF5721CD92A /* ReplaceMe.m in Sources */,
+				55DDD5DE4158A18AB0547ADBEB46D521 /* ZQLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E2DF0E4405AAA1CFF83A146C2B80C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526E932B37FFBB247D9500C5A972E1C9 /* Pods-ZQLogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B4A0120AC5E7C0A176B4247513282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1033583296FB0D0DE70CA0F1EE5FFABF /* Pods-ZQLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C6060E6A9F87B13443E47702FB3C439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZQLogin;
+			target = AEE235D8DA913F4DC695CFFA05E28CA2 /* ZQLogin */;
+			targetProxy = 1B1105FC6B56A3F1FFE37F16039EEED6 /* PBXContainerItemProxy */;
+		};
+		32E144F55EB39BA8798D3EEAB6B6A789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZQLogin_Example";
+			target = CADAC292617A7EE5F53B434CCA834DC2 /* Pods-ZQLogin_Example */;
+			targetProxy = B5AED7F9B77418CCC1BFBDE1E7EE5109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131541FE576416F4727F4F7D7CDC2E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CECB0029DA0F69574AC9FD72BAB4CD /* ZQLogin.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQLogin/ZQLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZQLogin/ZQLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZQLogin/ZQLogin.modulemap";
+				PRODUCT_MODULE_NAME = ZQLogin;
+				PRODUCT_NAME = ZQLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		628FD8B7586B40F8F93DD5ACD0DFC79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D973EDB34A176BA02A9B58208B89DAD /* Pods-ZQLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQLogin_Tests/Pods-ZQLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQLogin_Tests/Pods-ZQLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A3F3FD79E45AEB49BDEE1F0A113548C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971356A26301DD253E97A6F57BE04B88 /* Pods-ZQLogin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQLogin_Example/Pods-ZQLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQLogin_Example/Pods-ZQLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF37665E7E8EA872F2C966948EE85729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E71AD3658F5A9D1DD206C6607E8D57D /* ZQLogin.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQLogin/ZQLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZQLogin/ZQLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZQLogin/ZQLogin.modulemap";
+				PRODUCT_MODULE_NAME = ZQLogin;
+				PRODUCT_NAME = ZQLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0DCA1E486C131F53F43C93B448B331A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFC69D0E050DF3A9F1F8A351A9BA021 /* Pods-ZQLogin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQLogin_Example/Pods-ZQLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQLogin_Example/Pods-ZQLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF2B94697BA71BDBDE098878375CD4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A46650EE9236067EF977325F251C92F /* Pods-ZQLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZQLogin_Tests/Pods-ZQLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZQLogin_Tests/Pods-ZQLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF68B6BA9A3A2B6B61A32ACB1620893 /* Build configuration list for PBXNativeTarget "Pods-ZQLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628FD8B7586B40F8F93DD5ACD0DFC79D /* Debug */,
+				FF2B94697BA71BDBDE098878375CD4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F8B85C36D44DAB13C1AAAEA34607B7 /* Build configuration list for PBXNativeTarget "ZQLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF37665E7E8EA872F2C966948EE85729 /* Debug */,
+				131541FE576416F4727F4F7D7CDC2E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF515391C7B618E1A711706C9E9536CF /* Build configuration list for PBXNativeTarget "Pods-ZQLogin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3F3FD79E45AEB49BDEE1F0A113548C /* Debug */,
+				C0DCA1E486C131F53F43C93B448B331A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
